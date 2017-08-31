@@ -85,6 +85,7 @@ Finally, all of these windows(and more) were used to detect vehicles in an image
 
 As you can see from above (and again suggested by the lectures) each car will be correctly identified by a number of windows (and some windows will have false positives where there is no car). To deal with this, a heatmap and threshold are applied to the windows. The add_heat function sums the pixel value, or heat, for every positively identified window that the pixel is in. So if a pixel is in multiple windows, it will appear hotter (brighter color) while the pixels that are in no windows remain black:
 
+![alt text][image8]
 ![alt text][image9]
 
 As previously mentioned, a threshold is applied to remove any false positives. The threshold I selected was 1:
@@ -95,9 +96,7 @@ Next the scipy.ndimage,measurements.label() function uses spatial data from the 
 
 ![alt text][image11]
 
-From these labels the extreme bounding boxes can be taken to give us a final detection area:
-
-![alt text][image8]
+From these labels the extreme bounding boxes can be taken to give us a final detection area.
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
