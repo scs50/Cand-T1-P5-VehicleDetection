@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image8]: ./examples/windows_vehicle_detect.png
 [image9]: ./examples/heatmap.png
 [image10]: ./examples/heatmap_threshold.png
-[image11]: ./examples/lables_map.png
+[image11]: ./examples/labels_map.png
 [image12]: ./examples/boxes.png
 [image13]: ./examples/test_images_boxes.png
 [image14]: ./examples/vehicle_detect.png
